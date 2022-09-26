@@ -1,4 +1,9 @@
 console.log('JavaScript is working!')
+const welcome = document.querySelector(".name");
+
+function changeColor(color) {
+   welcome.style.color = color;
+}
 const name = document.querySelector(".name");
 const btn = document.querySelector("button");
 
